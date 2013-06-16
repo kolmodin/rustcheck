@@ -1,0 +1,9 @@
+
+#[link(name = "rustcheck", vers = "0.1", author = "kolmodin")];
+
+#[crate_type = "lib"];
+
+extern mod std;
+extern mod extra;
+
+mod rustcheck;
